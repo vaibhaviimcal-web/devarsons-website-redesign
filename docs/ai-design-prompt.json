@@ -1,0 +1,331 @@
+{
+  "project": {
+    "name": "Devarsons Industries Website Redesign",
+    "client": "Devarsons Industries Pvt. Ltd.",
+    "established": 1923,
+    "tagline": "The Colour Solution Company",
+    "current_website": "https://www.devarsons.com/",
+    "director": "Sandeep Shah"
+  },
+  "objective": "Create multiple modern and premium design variations for a 100-year-old colorant manufacturer, emphasizing innovation, R&D excellence, and global presence while avoiding typical industry aesthetics.",
+  "design_philosophy": {
+    "avoid": [
+      "Generic layouts",
+      "Bright rainbow color schemes",
+      "Cluttered designs",
+      "Typical Indian manufacturing aesthetics",
+      "Stock photos overuse"
+    ],
+    "embrace": [
+      "Clean, bold, minimal design",
+      "Dark/black or grey themes",
+      "Subtle neon/gradient accents",
+      "Intelligent micro-interactions",
+      "Molecular animations",
+      "Cinematic transitions"
+    ]
+  },
+  "inspiration_references": [
+    "os.agency",
+    "rejouice.com",
+    "eonixenergy.com",
+    "theshowroom.lvmh.com"
+  ],
+  "landing_animation": {
+    "sequence": [
+      {
+        "step": 1,
+        "action": "Dark screen fade-in",
+        "duration": "0.5s"
+      },
+      {
+        "step": 2,
+        "action": "Text: 'Break the Shackles'",
+        "duration": "1.5s",
+        "effect": "fade in → hold → fade out"
+      },
+      {
+        "step": 3,
+        "action": "Text: 'Challenge Barriers'",
+        "duration": "1.5s",
+        "effect": "fade in → hold → fade out"
+      },
+      {
+        "step": 4,
+        "action": "Text: 'Transcend Boundaries'",
+        "duration": "1.5s",
+        "effect": "fade in → hold → fade out"
+      },
+      {
+        "step": 5,
+        "action": "Text: 'Lead'",
+        "duration": "2s",
+        "effect": "fade in → hold"
+      },
+      {
+        "step": 6,
+        "action": "Devarsons logo reveal",
+        "duration": "1s",
+        "effect": "scale from 0.8 to 1 + fade in"
+      },
+      {
+        "step": 7,
+        "action": "Tagline: 'The Colour Solution Company'",
+        "duration": "0.8s",
+        "effect": "fade in below logo"
+      },
+      {
+        "step": 8,
+        "action": "Transition to main content",
+        "duration": "0.5s",
+        "effect": "smooth scroll indicator appears"
+      }
+    ]
+  },
+  "design_variations": [
+    {
+      "version": "A",
+      "name": "Dark Premium",
+      "theme": "Dark, sophisticated, science-driven",
+      "colors": {
+        "primary": "#0A0A0A",
+        "secondary": "#1E1E1E",
+        "accent": "#00FF88",
+        "highlight": "#FFD700",
+        "text": "#FFFFFF"
+      },
+      "features": [
+        "Dark background throughout",
+        "Neon accent highlights",
+        "Molecular animation backgrounds",
+        "Glowing CTAs",
+        "Particle systems",
+        "Gradient overlays"
+      ],
+      "mood": "Futuristic, innovative, premium"
+    },
+    {
+      "version": "B",
+      "name": "Clean Minimalist",
+      "theme": "Light, professional, structured",
+      "colors": {
+        "primary": "#FFFFFF",
+        "secondary": "#F3F4F6",
+        "accent": "#2563EB",
+        "text": "#111827",
+        "borders": "#E5E7EB"
+      },
+      "features": [
+        "Generous white space",
+        "Structured grid layouts",
+        "Subtle shadows",
+        "Clean line separators",
+        "Minimal color usage",
+        "Typography hierarchy"
+      ],
+      "mood": "Professional, trustworthy, clear"
+    },
+    {
+      "version": "C",
+      "name": "Cinematic Black",
+      "theme": "Dramatic, storytelling, legacy-focused",
+      "colors": {
+        "primary": "#000000",
+        "secondary": "#1F2937",
+        "accent": "#3B82F6",
+        "highlight": "#10B981",
+        "text": "#F9FAFB"
+      },
+      "features": [
+        "Full-screen sections",
+        "Parallax scrolling",
+        "Video backgrounds",
+        "Dramatic image reveals",
+        "Timeline animations",
+        "Cinematic transitions"
+      ],
+      "mood": "Prestigious, established, impactful"
+    }
+  ],
+  "website_structure": [
+    {
+      "section": "Home",
+      "components": [
+        "Animated hero with text sequence",
+        "Company introduction",
+        "Core values grid",
+        "Industries served",
+        "Global presence map",
+        "CTA section"
+      ]
+    },
+    {
+      "section": "About / Heritage",
+      "components": [
+        "Timeline (Since 1923)",
+        "Company values",
+        "Leadership",
+        "Global reach"
+      ]
+    },
+    {
+      "section": "Industries Served",
+      "components": [
+        "Industry categories",
+        "Application-specific solutions",
+        "Technical capabilities",
+        "Case studies"
+      ]
+    },
+    {
+      "section": "Manufacturing & R&D",
+      "components": [
+        "Facilities overview",
+        "Capabilities",
+        "Technology",
+        "Innovation pipeline"
+      ]
+    },
+    {
+      "section": "Quality & EHS Systems",
+      "components": [
+        "Certifications",
+        "Safety protocols",
+        "Testing facilities",
+        "Compliance"
+      ]
+    },
+    {
+      "section": "Responsible Sourcing & Sustainability",
+      "components": [
+        "Sustainability initiatives",
+        "Ethical sourcing",
+        "Impact metrics",
+        "Future commitments"
+      ]
+    },
+    {
+      "section": "Innovation / Intellectual Property",
+      "components": [
+        "R&D focus areas",
+        "Patents & IP",
+        "Product development",
+        "Technical support"
+      ]
+    },
+    {
+      "section": "Global Presence",
+      "components": [
+        "Interactive world map",
+        "Regional offices",
+        "Distribution network",
+        "Contact information"
+      ]
+    },
+    {
+      "section": "Contact / Inquiry",
+      "components": [
+        "Contact form",
+        "Office locations",
+        "Business inquiries",
+        "File upload"
+      ]
+    }
+  ],
+  "design_system": {
+    "spacing": {
+      "xs": "4px",
+      "sm": "8px",
+      "md": "16px",
+      "lg": "24px",
+      "xl": "32px",
+      "2xl": "48px",
+      "3xl": "64px",
+      "4xl": "96px"
+    },
+    "border_radius": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "full": "9999px"
+    },
+    "shadows": {
+      "sm": "0 1px 2px rgba(0,0,0,0.05)",
+      "md": "0 4px 6px rgba(0,0,0,0.1)",
+      "lg": "0 10px 15px rgba(0,0,0,0.1)",
+      "xl": "0 20px 25px rgba(0,0,0,0.15)"
+    },
+    "typography": {
+      "headings": "Space Grotesk or similar",
+      "body": "Inter or similar",
+      "mono": "JetBrains Mono"
+    }
+  },
+  "animations": {
+    "micro_interactions": [
+      "Button hover effects",
+      "Link underlines",
+      "Icon animations",
+      "Form field focus"
+    ],
+    "scroll_animations": [
+      "Fade-in on scroll",
+      "Slide-up reveals",
+      "Parallax effects",
+      "Progress indicators"
+    ],
+    "molecular_animations": [
+      "Background particles",
+      "Floating elements",
+      "Subtle movements",
+      "Science-inspired visuals"
+    ]
+  },
+  "responsive_breakpoints": {
+    "mobile": "320px - 767px",
+    "tablet": "768px - 1023px",
+    "desktop": "1024px+",
+    "large_desktop": "1440px+"
+  },
+  "performance_requirements": {
+    "page_load_time": "< 3 seconds",
+    "lighthouse_score": "90+",
+    "image_formats": ["WebP", "AVIF"],
+    "lazy_loading": true,
+    "cdn_delivery": true
+  },
+  "deliverables": [
+    "Homepage mockup (Desktop + Mobile)",
+    "About page (Desktop)",
+    "Industries page (Desktop)",
+    "Contact page (Desktop)",
+    "Component library",
+    "Animation examples",
+    "Color palette documentation",
+    "Typography specifications",
+    "Spacing system",
+    "Icon set"
+  ],
+  "brand_assets": {
+    "logo": "final deversons logo.cdr",
+    "content_sources": [
+      "DIPL Webpage.docx",
+      "Devarsons_Website.pptx"
+    ]
+  },
+  "target_audience": [
+    "B2B clients",
+    "Industry professionals",
+    "Potential partners",
+    "Investors",
+    "Technical buyers"
+  ],
+  "tone_of_voice": [
+    "Professional",
+    "Innovative",
+    "Trustworthy",
+    "Forward-thinking",
+    "Established yet modern"
+  ]
+}
